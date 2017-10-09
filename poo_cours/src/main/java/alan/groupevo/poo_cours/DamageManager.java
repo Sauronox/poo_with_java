@@ -10,5 +10,11 @@ package alan.groupevo.poo_cours;
  * @author alan
  */
 public class DamageManager{
-    
+  
+    public void combat(Personnage cPerso, Monster cMonster){
+
+        System.out.println("Combat: "+cPerso.getName+" blesse "+ cMonster.getName+" et perd "+cPerso.getForce+"pv ("+cMonster.getPV+"/"+cMonster.getMaxHP+")");
+        
+        
+    }
 }
